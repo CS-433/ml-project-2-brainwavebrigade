@@ -30,10 +30,9 @@ Encoder and model training functions.
 - Model 4 : 20 epochs, split 0.8:0.2 of all videos.
 - Model 5 : 20 epochs, uniform split 0.8:0.2 of all videos with optical flow.
 
-#### preprocessing.py 
 
 
 #### visualisation.py
-Functions to visualize model performance
+Functions to visualize model performances, by plotting the E_loss and cosine similyrity. Evaluate the correlation of each model. 
 
 
