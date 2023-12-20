@@ -3,7 +3,7 @@
 
 # EPFL - CS-433: project 1
 ### Team 
-Team name : 
+Team name : Brainwave Brigade
 
 Team members : 
 - Florian David  -  SCIPER : 375252, email: florian.david@epfl.ch
