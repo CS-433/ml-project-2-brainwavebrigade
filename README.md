@@ -20,10 +20,15 @@ Store the data, pre processing of the movies and masks for fMRI.
 ### Repo architecture
 
 #### Run.ipynb 
-Training of our model ...
+Training of our best model.
 
 #### model.py
 Encoder and model training functions. 
+Model 1 (best model) : 20 epochs, uniform split 0.8:0.2 of all videos.
+Model 2 : 10 epochs, uniform split 0.8:0.2 of all videos.
+Model 3 : 20 epochs, shuffle split 0.8:0.2 of all videos.
+Model 4 : 20 epochs, split 0.8:0.2 of all videos.
+Model 5 : 20 epochs, uniform split 0.8:0.2 of all videos with optical flow
 
 #### preprocessing.py 
 
