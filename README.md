@@ -13,7 +13,7 @@ Team members :
 ### Project description
 The goal of this machine learning project is to predict brain activity during movies watching using fMRI data.
 ### Dataset
-The data where given by the MIP Lab (https://miplab.epfl.ch/) and are confidential. The data set is composed of 14 movies and their correspondinf fMRI acquisition of 1 participant. 
+The data where given by the MIP Lab (https://miplab.epfl.ch/) and are confidential. The data set is composed of 14 movies and their correspondinf fMRI acquisition of 1 participant. However one movie and the corresponding masked fMRI are available on this github. This allow you to run the model.
 
 ### dataset.py
 Store the data, pre processing of the movies and masks for fMRI.
@@ -24,11 +24,7 @@ Training of our best model.
 
 #### model.py
 It contains all the functions related to the model, its training, and its validationEncoder and model training functions. 
-- Model 1 (best model) : 20 epochs, uniform split 0.8:0.2 of all videos.
-- Model 2 : 10 epochs, uniform split 0.8:0.2 of all videos.
-- Model 3 : 20 epochs, shuffle split 0.8:0.2 of all videos.
-- Model 4 : 20 epochs, split 0.8:0.2 of all videos.
-- Model 5 : 20 epochs, uniform split 0.8:0.2 of all videos with optical flow.
+For each of the 14 films, 1 out of 5 TR was extracted uniformly to constitute the testset. Then, during training, the trainset is completely shuffled to prevent overfitting. We used a batch size of 1 at each iteration, meaning that the encoder was trained on 1 TR per step for 20 epochs, and we used a learning rate of $1 \cdot 10^{-4}$. In the following, we refer to this model as the "best model" (see Table 1, Model 1).
 
 
 
