@@ -13,7 +13,7 @@ Team members :
 ### Project description
 The goal of this machine learning project is to predict brain activity during movies watching using fMRI data.
 ### Dataset
-The data where given by the MIP Lab (https://miplab.epfl.ch/) and are confidential. The data set is composed of 14 movies and their correspondinf fMRI acquisition of 1 participant. However one movie and the corresponding masked fMRI are available on this github through this link : . This allow you to run the model.
+The data where given by the MIP Lab (https://miplab.epfl.ch/) and are confidential. The data set is composed of 14 movies and their correspondinf fMRI acquisition of 1 participant. However one movie and the corresponding masked fMRI are available on this github through this link : . This allow you to run the model. We have also included the parameters of the best model (the model used to obtain the results of the report).
 
 ### dataset.py
 Store the data, pre processing of the movies and masks for fMRI.
