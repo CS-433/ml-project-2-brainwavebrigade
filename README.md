@@ -23,7 +23,7 @@ Store the data, pre processing of the movies and masks for fMRI.
 Training of our best model.
 
 #### model.py
-Encoder and model training functions. 
+It contains all the functions related to the model, its training, and its validationEncoder and model training functions. 
 - Model 1 (best model) : 20 epochs, uniform split 0.8:0.2 of all videos.
 - Model 2 : 10 epochs, uniform split 0.8:0.2 of all videos.
 - Model 3 : 20 epochs, shuffle split 0.8:0.2 of all videos.
