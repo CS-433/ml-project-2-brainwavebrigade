@@ -29,6 +29,6 @@ For each of the 14 films, 1 out of 5 TR was extracted uniformly to constitute th
 
 
 #### visualisation.py
-Functions to visualize model performances, by plotting the E_loss and cosine similyrity. Evaluate the correlation of each model. 
+Functions to visualize model performances, by plotting the E_loss and cosine similarity. Evaluate the correlation of each model. 
 
 
