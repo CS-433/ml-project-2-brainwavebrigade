@@ -20,7 +20,7 @@ Store the data, pre processing of the movies and masks for fMRI.
 ### Repo architecture
 
 #### Run.ipynb 
-Training of our best model.
+Training of a model for one movie and its corresponding fMRI. 
 
 #### model.py
 It contains all the functions related to the model, its training, and its validationEncoder and model training functions. 
