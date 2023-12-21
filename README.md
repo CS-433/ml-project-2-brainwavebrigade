@@ -24,7 +24,7 @@ Training of our best model.
 
 #### model.py
 It contains all the functions related to the model, its training, and its validationEncoder and model training functions. 
-For each of the 14 films, 1 out of 5 TR was extracted uniformly to constitute the testset. Then, during training, the trainset is completely shuffled to prevent overfitting. We used a batch size of 1 at each iteration, meaning that the encoder was trained on 1 TR per step for 20 epochs, and we used a learning rate of $1 \cdot 10^{-4}$. In the following, we refer to this model as the "best model" (see Table 1, Model 1).
+For each of the 14 films, 1 out of 5 TR was extracted uniformly to constitute the testset. Then, during training, the trainset is completely shuffled to prevent overfitting. We used a batch size of 1 at each iteration, meaning that the encoder was trained on 1 TR per step for 20 epochs, and we used a learning rate of $1 \cdot 10^{-4}$. In the following, we refer to this model as the "best model".
 
 
 
